@@ -1,4 +1,4 @@
-function helloBasic<T, U>(message: T, comment:U): T{
+function helloBasic<T, U>(message: T, comment:U): T{//두개를 줄 수도 있다.
   console.log(message);
   console.log(comment);
   return message;
